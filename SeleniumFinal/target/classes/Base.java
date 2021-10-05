@@ -22,15 +22,15 @@ public class Base {
 		//System.setProperty("webdriver.chrome.driver","C:\\Users\\swamy\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		//driver=new ChromeDriver();
 		WebDriverManager.chromedriver().setup();
-		driver=new ChromeDriver();
-		
+		driver=new ChromeDriver();// initializing the browser
+		System.out.println("hai22ram");
 		
 		br=new BufferedReader(new FileReader(proppath));
 		p.load(br);
 		System.out.println(p.getProperty("url"));
 		driver.get(p.getProperty("url"));
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 		
 		return driver;
 		
