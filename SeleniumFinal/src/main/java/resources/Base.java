@@ -22,7 +22,7 @@ public class Base {
 		//System.setProperty("webdriver.chrome.driver","C:\\Users\\swamy\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		//driver=new ChromeDriver();
 		WebDriverManager.chromedriver().setup();
-		driver=new ChromeDriver();
+		driver1=new ChromeDriver();
 		
 		
 		br=new BufferedReader(new FileReader(proppath));
