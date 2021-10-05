@@ -21,7 +21,7 @@ public class Base {
 		String proppath=System.getProperty("user.dir")+"\\src\\main\\java\\resources\\config.properties";
 		//System.setProperty("webdriver.chrome.driver","C:\\Users\\swamy\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		//driver=new ChromeDriver();
-		WebDriverManager.chromedriver().setup();//initializing webdriver
+		WebDriverManager.chromedriver().setup();//initializing webdsriver
 
 		driver=new ChromeDriver();
 			
