@@ -23,7 +23,7 @@ public class Base {
 		//driver=new ChromeDriver();
 		WebDriverManager.chromedriver().setup();
 		driver=new ChromeDriver();// initializing the browser
-		System.out.println("hai");
+		System.out.println("hai22");
 		
 		br=new BufferedReader(new FileReader(proppath));
 		p.load(br);
